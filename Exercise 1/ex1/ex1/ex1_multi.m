@@ -106,6 +106,10 @@ fprintf('\n');
 % not need to be normalized.
 price = 0; % You should change this
 
+f = [1650 3];
+f = (f - mu) ./ sigma;
+f = [ones(1, 1) f];
+price = f * theta; 
 
 % ============================================================
 
