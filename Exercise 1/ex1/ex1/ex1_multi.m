@@ -134,7 +134,7 @@ fprintf('Solving with normal equations...\n');
 %
 
 %% Load Data
-data = csvread('ex1data2.txt');
+%% data = csvread('ex1data2.txt');
 X = data(:, 1:2);
 y = data(:, 3);
 m = length(y);
@@ -155,6 +155,8 @@ fprintf('\n');
 % ====================== YOUR CODE HERE ======================
 price = 0; % You should change this
 
+prediction = [1 1650 3];
+price = prediction * theta;
 
 % ============================================================
 
