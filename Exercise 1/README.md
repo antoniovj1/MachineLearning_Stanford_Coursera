@@ -1,4 +1,4 @@
-# Exercise 1
+# Exercise 1 - Week 2
 
 Solutions in ex1/ex1/
 
